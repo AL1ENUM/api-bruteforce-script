@@ -1,6 +1,6 @@
 import requests
 import sys
-#Madeby Alienum
+#Made by Alienum
 url = 'http://x.x.x.x/api/login'
 with open('/usr/share/wordlists/rockyou.txt') as file:
   for line in file:
