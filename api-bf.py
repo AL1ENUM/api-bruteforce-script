@@ -11,5 +11,5 @@ with open('user.txt') as users:
           if r.status_code == 200:
              print('[+] Username : '+ u)
              print('[+] Password : '+ line)
-             break
+             sys.exit()
           
